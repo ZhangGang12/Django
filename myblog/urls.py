@@ -23,4 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.about, name='about'),
     path('article/', include('article.urls')),
+    # 用户管理
+    path('userprofile/', include('userprofile.urls', namespace='userprofile')),
 ]
