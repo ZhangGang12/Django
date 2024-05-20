@@ -1,2 +1,4 @@
 db.sqlite3
 article/__pycache__
+myblog/__pycache__
+userprofile/__pycache__
